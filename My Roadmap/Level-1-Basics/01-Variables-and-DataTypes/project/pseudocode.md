@@ -1,14 +1,22 @@
 
-git commit -m"
+# Pseudocode 
 
+## Personal_ID
 
-start C++ journal — 
-Level 1: Basic
-Variables & Data Types
+START
+DECLARE name     AS string  = "Alice Johnson"
+DECLARE age      AS int     = 20
+DECLARE height   AS float   = 1.65
+DECLARE gpa      AS double  = 3.85
+DECLARE grade    AS char    = 'A'
+DECLARE isStudent AS bool   = true
 
-- Create practice folder: variables-and-data-types/
-- Add first project: Personal ID Card Generator
-- Add pseudocode for all projects in this chaptereate pseudocode , 
-it's all pesudcode for all project in variable and datatype 
-
-"
+    PRINT "===== Student ID Card ====="
+    PRINT "Name    : " + name
+    PRINT "Age     : " + age
+    PRINT "Height  : " + height
+    PRINT "GPA     : " + gpa
+    PRINT "Grade   : " + grade
+    PRINT "Student : " + isStudent (if true → "YES" else "NO")
+    PRINT "==========================="
+END
