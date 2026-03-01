@@ -20,3 +20,4 @@ DECLARE isStudent AS bool   = true
     PRINT "Student : " + isStudent (if true → "YES" else "NO")
     PRINT "==========================="
 END
+
